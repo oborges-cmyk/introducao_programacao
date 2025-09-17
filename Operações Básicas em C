@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    int b = 5;
+    int soma = a + b;        // soma = 15
+    int subtracao = a - b;   // subtracao = 5
+    int multiplicacao = a * b; // multiplicacao = 50
+    int divisao = a / b;       // divisao = 2
+
+    printf("Soma: %d\n", soma);
+    printf("Subtração: %d\n", subtracao);
+    printf("Multiplicação: %d\n", multiplicacao);
+    printf("Divisão inteira: %d\n", divisao);
+    return 0;
+}
